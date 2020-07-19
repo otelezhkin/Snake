@@ -26,7 +26,7 @@ namespace Snake
         public void Draw()
         {
             Console.SetCursorPosition(x, y);
-            Console.WriteLine(sym);
+            Console.Write(sym);
         }
     }
 }
